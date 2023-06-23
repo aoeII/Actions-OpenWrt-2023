@@ -14,6 +14,8 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 rm -rf package/feeds/packages/adguardhome
 git clone https://github.com/sirpdboy/sirpdboy-package package/sirpdboy
+git clone https://github.com/sirpdboy/luci-app-parentcontrol.git package/luci-app-parentcontrol
+git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 rm -rf package/sirpdboy/aria2
 rm -rf package/sirpdboy/ariang
 rm -rf package/sirpdboy/autosamba
